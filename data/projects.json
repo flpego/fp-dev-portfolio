@@ -1,0 +1,41 @@
+{
+    "projects": [
+      {
+        "id": "1a",
+        "name": "Fake-Ecommerce React",
+        "description": "Simulacion de tienda virtual",
+        "linkToGH": "https://github.com/flpego/fake-ecommerce-react",
+        "linkToDeploy": "https://flpego.github.io/fake-ecommerce-react/",
+        "tags": ["react"]
+
+      },
+      {
+        "id": "1b",
+        "name": "Proyecto 2",
+        "description": "Descripción del Proyecto 2",
+        "linkToGH": "https://github.com/usuario/proyecto2",
+        "linkToDeploy": "https://github.com/usuario/proyecto2",
+        "tags": ["html", "css","javascript"]
+
+      },
+      {
+        "id": "1c",
+        "name": "Proyecto 2",
+        "description": "Descripción del Proyecto 2",
+        "linkToGH": "https://github.com/usuario/proyecto2",
+        "linkToDeploy": "https://github.com/usuario/proyecto2",
+        "tags": ["html", "css"]
+
+      },
+      {
+        "id": "1d",
+        "name": "Proyecto 2",
+        "description": "Descripción del Proyecto 2",
+        "linkToGH": "https://github.com/usuario/proyecto2",
+        "linkToDeploy": "https://github.com/usuario/proyecto2",
+        "tags": ["react"]
+
+      }
+    ]
+  }
+  
