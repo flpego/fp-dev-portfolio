@@ -21,12 +21,6 @@ const AboutMe = () => {
           profesionalmente a mi segunda pasión: el desarrollo web.
         </p>
         <p>
-          Mi enfoque se centra en crear experiencias de usuario intuitivas y
-          atractivas, combinando mi habilidad técnica con atención a los
-          detalles. Estoy siempre en busca de nuevos desafíos y oportunidades
-          para aplicar mis habilidades y aprender nuevas tecnologías.
-        </p>
-        <p>
           Si estás buscando un desarrollador front-end comprometido, creativo y
           con una sólida base técnica, me encantaría formar parte de tu equipo y
           contribuir al éxito de tus proyectos.

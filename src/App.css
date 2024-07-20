@@ -17,7 +17,38 @@ body {
 ul {
   list-style: none;
 }
+
 a{
   text-decoration: none;
   color: none;
 }
+
+
+/* Estilos para iconos */
+.icon {
+  font-size: 2rem;
+  transition: color 0.3s, text-shadow 0.3s;
+}
+
+
+
+.icon:hover {
+  font-size: 2.1rem;
+
+  color: #00C7B7; 
+  text-shadow: 1px 1px 10px #34f82d; 
+}
+
+.tag-html { color: #E44D26; }
+.tag-css { color: #1572B6; }
+.tag-javascript { color: #F7DF1E; }
+.tag-react { color: #61DAFB; }
+.tag-angular { color: #dd2525; }
+.tag-git { color: #F34F29; }
+.tag-github { color: #181717; background-color: #fff; border-radius: 40%;}
+.tag-vscode { color: #007ACC; }
+.tag-netlify { color: #00C7B7; }
+.tag-bootstrap { color: #7952B3; }
+.tag-tailwind { color: #38B2AC; }
+.tag-sass {color: #c95cc9;}
+.tag-figma {color: #c501e2;}

@@ -1,8 +1,7 @@
-import { FaGithub } from "react-icons/fa6";
-import { FaLinkedin } from "react-icons/fa";
-import { FaRegCopyright } from "react-icons/fa";
+
 import "./Footer.css"
 import Title from "../utils/Title";
+import {FaLinkedin, FaRegCopyright, FaGithub} from  "../../common/commonIcons";
 const Footer = () => {
     return (
       <footer className="footer">

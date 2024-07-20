@@ -1,8 +1,11 @@
 import { Project } from "../../models/IProject";
-import { IoLogoJavascript } from "react-icons/io5";
-import { FaReact } from "react-icons/fa6";
-import { IoLogoCss3 } from "react-icons/io";
-import { IoLogoHtml5 } from "react-icons/io5";
+
+import {
+  IoLogoJavascript,
+  FaReact,
+  IoLogoCss3,
+  IoLogoHtml5,
+} from "../../common/commonIcons";
 import "./ProjectItem.css";
 interface ProjectProps {
   project: Project;
@@ -46,7 +49,7 @@ const ProjectItem: React.FC<ProjectProps> = ({ project }) => {
       <div className="tags-container">
         {project.tags.map((tag, index) => (
           <span key={index} className="tag">
-           {getIcon(tag)}
+            {getIcon(tag)}
           </span>
         ))}
       </div>

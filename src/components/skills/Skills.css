@@ -1,0 +1,26 @@
+
+
+.section-skills {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+.article-skills {
+    flex: 1;
+    max-width: 45%;
+    background: #1e1e1e;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.article-skills ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.article-skills ul li{
+    margin: 0 .5rem;
+}
