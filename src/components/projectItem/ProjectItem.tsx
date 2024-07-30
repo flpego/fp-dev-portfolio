@@ -1,30 +1,33 @@
 import { Project } from "../../models/IProject";
+import * as Icons from "../../common/commonIcons"
 
-import {
-  IoLogoJavascript,
-  FaReact,
-  IoLogoCss3,
-  IoLogoHtml5,
-} from "../../common/commonIcons";
 import "./ProjectItem.css";
 interface ProjectProps {
   project: Project;
 }
 
 const ProjectItem: React.FC<ProjectProps> = ({ project }) => {
+
+  const iconMap: Record<string, { icon: JSX.Element; name: string }> = {
+    html: { icon: <Icons.IoLogoHtml5 className="icon tag-html" />, name: "HTML5" },
+    css: { icon: <Icons.IoLogoCss3 className="icon tag-css" />, name: "CSS3" },
+    javascript: { icon: <Icons.IoLogoJavascript className="icon tag-javascript" />, name: "JavaScript" },
+    react: { icon: <Icons.FaReact className="icon tag-react" />, name: "React" },
+    sass: { icon: <Icons.FaSass className="icon tag-sass" />, name: "Sass" },
+  };
+  
   const getIcon = (tag: string) => {
-    switch (tag.toLowerCase()) {
-      case "html":
-        return <IoLogoHtml5 className="icon tag-html" />;
-      case "css":
-        return <IoLogoCss3 className="icon tag-css" />;
-      case "javascript":
-        return <IoLogoJavascript className="icon tag-javascript" />;
-      case "react":
-        return <FaReact className="icon tag-react" />;
-      default:
-        return <span>{tag}</span>;
+    const lowerCaseTag = tag.toLowerCase();
+    if (lowerCaseTag in iconMap) {
+      const { icon, name } = iconMap[lowerCaseTag];
+      return (
+        <div className="icon-container">
+          {icon}
+          <span className="tooltip">{name}</span>
+        </div>
+      );
     }
+    return <span>{tag}</span>;
   };
 
   return (

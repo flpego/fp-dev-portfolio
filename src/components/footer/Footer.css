@@ -27,23 +27,23 @@ footer p {
   justify-content: center;
   align-items: center;
 }
-.footer-link-container p a {
+.footer-link-container  {
   border-radius: 2px;
 }
 .footer-link-container a {
-  color: #2ef8a0;
   text-decoration: none;
-  border: 1px solid #2ef8a0;
-  border-radius: 50%;
-
+  color:#2ef8a0 ;
   padding: 0.5rem;
   transition: background-color 0.3s, color 0.3s;
 }
-
 .footer-link-container a:hover {
-  background-color: #2ef8a0;
-  color: #333;
+  color:#2ef8a0 ;
+  transition: background-color 0.3s, color 0.3s;
+  text-shadow: 0 0 16px #2ef8a0;
+  font-size: 1.1rem;
 }
+
+
 
 .footer-icon {
   font-size: 2rem;

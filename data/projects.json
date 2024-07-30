@@ -11,11 +11,11 @@
       },
       {
         "id": "1b",
-        "name": "Proyecto 2",
-        "description": "Descripción del Proyecto 2",
-        "linkToGH": "https://github.com/usuario/proyecto2",
-        "linkToDeploy": "https://github.com/usuario/proyecto2",
-        "tags": ["html", "css","javascript"]
+        "name": "Rutinas WebPage",
+        "description": "Pagina web de rutinas de muestra",
+        "linkToGH": "https://github.com/flpego/rutinas-gym",
+        "linkToDeploy": "https://flpego.github.io/rutinas-gym",
+        "tags": ["html", "css","sass", "javascript"]
 
       },
       {
