@@ -7,7 +7,7 @@ const Header = () => {
         <h4 className="header-title">Frontend Developer</h4>
         <nav className="header-nav">
           <ul className="header-list">
-            <li className="header-item">
+            {/* <li className="header-item">
               <a href="#" className="header-link">
                 Sobre Mi
               </a>
@@ -16,7 +16,7 @@ const Header = () => {
               <a href="#" className="header-link">
                 Proyectos
               </a>
-            </li>
+            </li> */}
           </ul>
         </nav>
       </div>
