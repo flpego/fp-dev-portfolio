@@ -10,30 +10,39 @@
 
       },
       {
+        "id": "1ab",
+        "name": "Tareas por hacer Web",
+        "description": "Web de listado de tareas con persistencia de datos en el navegador",
+        "linkToGH": "https://github.com/flpego/task-app-con-react-y-localstorage",
+        "linkToDeploy": "https://flpego.github.io/task-app-con-react-y-localstorage",
+        "tags": ["react"]
+
+      },
+      {
         "id": "1b",
         "name": "Rutinas WebPage",
         "description": "Pagina web de rutinas de muestra",
         "linkToGH": "https://github.com/flpego/rutinas-gym",
         "linkToDeploy": "https://flpego.github.io/rutinas-gym",
-        "tags": ["html", "css","sass", "javascript"]
+        "tags": ["html", "css","sass"]
 
       },
       {
         "id": "1c",
-        "name": "Proyecto 2",
-        "description": "Descripción del Proyecto 2",
-        "linkToGH": "https://github.com/usuario/proyecto2",
-        "linkToDeploy": "https://github.com/usuario/proyecto2",
-        "tags": ["html", "css"]
+        "name": "Diccionario Ingles",
+        "description": "Buscador de palabras en ingles",
+        "linkToGH": "https://github.com/flpego/dictionary-app",
+        "linkToDeploy": "https://flpego.github.io/dictionary-app/",
+        "tags": ["html", "css", "javascript"]
 
       },
       {
         "id": "1d",
-        "name": "Proyecto 2",
+        "name": "Pokedex",
         "description": "Descripción del Proyecto 2",
-        "linkToGH": "https://github.com/usuario/proyecto2",
-        "linkToDeploy": "https://github.com/usuario/proyecto2",
-        "tags": ["react"]
+        "linkToGH": "https://github.com/flpego/pokedex-pokeapi",
+        "linkToDeploy": "https://flpego.github.io/pokedex-pokeapi",
+        "tags": ["html", "css", "javascript"]
 
       }
     ]
